@@ -18,6 +18,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'w0rp/ale'
 

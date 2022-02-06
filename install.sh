@@ -51,14 +51,14 @@ function __install_all() {
     __install_gcc
     __install_vim
 
-    __install_coffeescript
-    __install_go
-    __install_heroku
-    __install_node
-    __install_python
-    __install_ruby
-    __install_typescript
-    __install_webtools
+    # __install_coffeescript
+    # __install_go
+    # __install_heroku
+    # __install_node
+    # __install_python
+    # __install_ruby
+    # __install_typescript
+    # __install_webtools
 }
 
 function __install_brew() {

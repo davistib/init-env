@@ -22,7 +22,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'w0rp/ale'
 
 " Language Support Plugins
-Plug 'davidhalter/jedi-vim'                         " python autocomplete
+"Plug 'davidhalter/jedi-vim'                         " python autocomplete
 Plug 'digitaltoad/vim-pug'                          " pug
 Plug 'elzr/vim-json'                                " json
 Plug 'gisraptor/vim-lilypond-integrator'            " lilypond
@@ -156,6 +156,7 @@ let g:ale_linters = {
     \'vue': ['vls']
     \}
 let g:ale_virtualenv_dir_names = ['usr']
+let g:ale_python_pycodestyle_options = '--max-line-length=120'
 
 " Key Mappings #########################################################################################################
 
@@ -172,7 +173,8 @@ map <F10> :ALEFindReferences<CR>
 map <F11> :ALEGoToDefinition<CR>
 map <F12> :ALEGoToTypeDefinition<CR>
 
-nmap '    :BufExplorer<CR>
+nmap ;    :BufExplorer<CR>
+"let mapleader = ";"
 
 " Local Overrides ######################################################################################################
 
